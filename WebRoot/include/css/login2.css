@@ -1,0 +1,93 @@
+@charset "utf-8";
+html{background-image: url(../img/bg.gif);
+    background-repeat: repeat-x;}
+
+body{            /* 默认值 */
+margin: 0 auto;
+font-family: "微软雅黑",'Microsoft Yahei', serif;
+}
+#bg{
+	position: relative;overflow:hidde;
+	height: 111px; 
+margin: 0 auto;background-color: #0d59a7;
+border-bottom: solid 1px #1AB2FE;
+}
+
+.text{
+	border-radius: 10px;display:block;*display:inline-block;
+height:45px;line-height:45px;width:200px;
+font-size:18px;
+padding:0 10px;color:#04A8EA;outline:0;
+float:left;overflow:hidden;}
+.login_btn{
+	display:block;width:200px;height:45px;line-height:45px;
+	text-align:center;font-size:18px;color:#fff;font-family:Microsoft YaHei;
+	background-color:#f2546b;border:none;cursor:pointer;
+	border-radius: 10px;}
+.login_btn:hover{background-color:#f95f79;color:#fff}
+.grid {
+    position: relative;
+    clear: both;
+    list-style: none;
+    text-align: center;
+}
+.index1{
+    position: relative;
+    float: left;
+    overflow: hidden;
+    /* background: #3085a3; */
+    text-align: center;
+    cursor: pointer;
+    margin-top: .5em;
+    vertical-align: top;
+    display: inline-block;
+    display: block;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: 10px;
+    -webkit-margin-end: 10px;
+    margin:5px 10px;
+}
+.index1 label{cursor:pointer;padding-left: 4px;}
+#noks{
+border-radius: 8%;
+border: 1px solid #D3D3D3;
+max-width: 155px;
+height: 30px;
+line-height: 30px;
+text-align: center;
+background-color: red;
+color: yellow;
+font-size: 16px;
+font-weight: bold;
+}
+table {
+    margin-top: 1px;
+    border: none;
+    width: 100%;
+    border-collapse: collapse;
+}
+.fir_tr {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height:90px;
+}
+ p {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 15px;
+}
+.btn_sty {
+    width: 100px;
+    height: 35px;
+}
+.fir_cont {
+    width:100%;
+    line-height: 15px;
+}
+.fir_cont div{margin-left:5%;margin-right:5%;}
+.top {background-color: #00307C;color: #fff;font-size: 12px;}
+.top a {color: #ff0;margin-right: 15px;padding: 0 5px;}
+.top a:hover {color: #ff0;background: #009EDA;transition: all 0.5s ease 0s;}
+.top div{margin:5px;}  

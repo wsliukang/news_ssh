@@ -1,0 +1,172 @@
+/*Solve Jquery mobile header show and hide when click the long body*/
+
+.in   {
+      /*-webkit-animation-timing-function: ease-out;
+
+    -webkit-animation-duration: 350ms;
+
+    -moz-animation-timing-function: ease-out;
+
+    -moz-animation-duration: 350ms;
+
+    animation-timing-function: ease-out;
+
+    animation-duration: 350ms;*/
+
+      -webkit-animation-timing-function :   none ;
+
+      -webkit-animation-duration :   0 ;
+
+      -moz-animation-timing-function :   none ;
+
+      -moz-animation-duration :   0 ;
+
+      animation-timing-function :   ease-out ;
+
+      animation-duration :   0 ;
+
+}
+ 
+.out   {
+      -webkit-animation-timing-function :   ease-in ;
+
+      -webkit-animation-duration :   0 ;
+
+      -moz-animation-timing-function :   ease-in ;
+
+      -moz-animation-duration :   0 ;
+
+      animation-timing-function :   ease-in ;
+
+      animation-duration :   0 ;
+
+}
+ 
+ 
+ 
+ 
+.slidedown.in , .slideup.in   {
+
+      /*-webkit-transform: translateY(0);
+
+    -webkit-animation-name: slideinfromtop;
+
+    -webkit-animation-duration: 250ms;
+
+    -moz-transform: translateY(0);
+
+    -moz-animation-name: slideinfromtop;
+
+    -moz-animation-duration: 250ms;*/
+
+      -webkit-transform :   none ;
+
+      -webkit-animation-name :   none ;
+
+      -webkit-animation-duration :   0ms ;
+
+      -moz-transform :   none ;
+
+      -moz-animation-name :   none ;
+
+      -moz-animation-duration :   0ms ;
+
+}
+ 
+ 
+.slidedown.out , .slideup.out   {
+
+      /*-webkit-animation-name: fadeout;
+
+    -webkit-animation-duration: 100ms;
+
+    -moz-animation-name: fadeout;
+
+    -moz-animation-duration: 100ms;
+
+    animation-name: fadeout;
+
+    animation-duration: 100ms;*/
+
+      -webkit-animation-name :   none ;
+
+      -webkit-animation-duration :   0ms ;
+
+      -moz-animation-name :   none ;
+
+      -moz-animation-duration :   0ms ;
+
+      animation-name :   none ;
+
+      animation-duration :   0ms ;
+
+}
+ 
+      .slidedown.out.reverse ,   .slideup.out.reverse   {
+
+          /*-webkit-transform: translateY(-100%);
+
+        -webkit-animation-name: slideouttotop;
+
+        -webkit-animation-duration: 200ms;
+
+        -moz-transform: translateY(-100%);
+
+        -moz-animation-name: slideouttotop;
+
+        -moz-animation-duration: 200ms;
+
+        transform: translateY(-100%);
+
+        animation-name: slideouttotop;
+
+        animation-duration: 200ms;*/
+
+          -webkit-transform :   none   ;
+
+          -webkit-animation-name :   none   ;
+
+          -webkit-animation-duration :   200ms   ;
+
+          -moz-transform :   none   ;
+
+          -moz-animation-name :   none   ;
+
+          -moz-animation-duration :   200ms   ;
+
+          transform :   none ;
+
+          animation-name :   none   ;
+
+          animation-duration :   200ms   ;
+
+    }
+ 
+.slidedown.in.reverse ,   .slideup.in.reverse   {
+
+      /*-webkit-animation-name: fadein;
+
+    -webkit-animation-duration: 150ms;
+
+    -moz-animation-name: fadein;
+
+    -moz-animation-duration: 150ms;
+
+    animation-name: fadein;
+
+    animation-duration: 150ms;*/
+
+      -webkit-animation-name :   none ;
+
+      -webkit-animation-duration :   0 ;
+
+      -moz-animation-name :   none ;
+
+      -moz-animation-duration :   0 ;
+
+      animation-name :   none ;
+
+      animation-duration :   0 ;
+
+}
+/*Solve Jquery mobile header show and hide when click the long body*/

@@ -1,0 +1,1442 @@
+body {
+	background: rgb(255, 255, 255); margin: 0px; padding: 0px; text-align: center; color: rgb(106, 106, 106); font-family: "microsoft yahei","Lucida Grande",Helvetica,Arial,Verdana,sans-serif; font-size: 12px; font-weight: normal;
+}
+h1 {
+	font-size: 12px; font-weight: normal;
+}
+h2 {
+	margin: 0px; font-size: 12px; display: inline;
+}
+h3 {
+	margin: 0px; padding: 0px; color: rgb(68, 68, 68); font-size: 12px; font-weight: normal; display: inline;
+}
+dl {
+	list-style: none; margin: 0px; padding: 0px; border: currentColor; border-image: none;
+}
+dt {
+	list-style: none; margin: 0px; padding: 0px; border: currentColor; border-image: none;
+}
+dd {
+	list-style: none; margin: 0px; padding: 0px; border: currentColor; border-image: none;
+}
+ul {
+	list-style: none; margin: 0px; padding: 0px; border: currentColor; border-image: none;
+}
+li {
+	list-style: none; margin: 0px; padding: 0px; border: currentColor; border-image: none;
+}
+ol {
+	list-style: none; margin: 0px; padding: 0px; border: currentColor; border-image: none;
+}
+p {
+	list-style: none; margin: 0px; padding: 0px; border: currentColor; border-image: none;
+}
+form {
+	list-style: none; margin: 0px; padding: 0px; border: currentColor; border-image: none;
+}
+img {
+	list-style: none; margin: 0px; padding: 0px; border: currentColor; border-image: none;
+}
+img {
+	vertical-align: middle;
+}
+textarea {
+	font-size: 12px;
+}
+a {
+	color: rgb(7, 93, 179); text-decoration: none;
+}
+a:link {
+	color: rgb(7, 93, 179); text-decoration: none;
+}
+a:active {
+	color: rgb(7, 93, 179); text-decoration: none;
+}
+a:hover {
+	color: rgb(255, 153, 0);
+}
+a img {
+	border: 0px currentColor; border-image: none;
+}
+#rss img {
+	border: 0px currentColor; border-image: none; margin-bottom: 5px;
+}
+.btnBlueBg {
+	padding: 5px 9px; width: 56px; height: 26px; color: rgb(255, 255, 255) !important; line-height: 28px; font-weight: bold; cursor: pointer; background-image: url("//image.sojump.com/images/mysojump/questionnairemng/design/com_button.gif"); background-repeat: repeat-x;
+}
+input.finish {
+	background: rgb(241, 120, 25); padding: 0px 15px !important; border-radius: 5px; border: 1px solid transparent; border-image: none; height: 26px; color: rgb(255, 255, 255); line-height: 22px; overflow: visible; font-size: 14px; vertical-align: middle; display: inline-block; cursor: pointer;
+}
+input.finish:focus {
+	
+}
+input.finish:hover {
+	background: rgb(241, 134, 40);
+}
+input.cancle {
+	background: rgb(255, 255, 255); border: 1px solid rgb(173, 173, 173); border-image: none; height: 26px; color: rgb(51, 51, 51);
+}
+input.cancle:hover {
+	background: rgb(242, 248, 255);
+}
+.divline {
+	color: rgb(42, 133, 191); padding-bottom: 4px; font-size: 14px; font-weight: bold; margin-top: 20px; margin-bottom: 6px; border-bottom-color: rgb(173, 178, 180); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.divclear {
+	height: 0px; line-height: 0px; clear: both; font-size: 1px;
+}
+.wls {
+	color: rgb(51, 51, 51); font-size: 12px; font-weight: normal; margin-top: 38px; margin-left: 6px; float: left;
+}
+.hul li {
+	float: left;
+}
+.qset li {
+	margin-top: 10px; margin-left: 10px; float: left;
+}
+.beijiimg {
+	width: 100px; height: 75px;
+}
+.wf {
+	padding: 0px; color: rgb(255, 255, 255) !important;
+}
+.linehr {
+	background: rgb(204, 221, 255); padding: 0px; border: 0px currentColor; border-image: none; height: 5px; color: rgb(204, 221, 255); margin-top: 0px; margin-bottom: 0px;
+}
+.linediv {
+	background: rgb(204, 221, 255); margin: 3px 0px; padding: 0px; width: 100%; height: 5px; line-height: 0px; clear: both; font-size: 0px;
+}
+.listhr {
+	background: rgb(204, 221, 255); border: 0px currentColor; border-image: none; height: 1px; color: rgb(204, 221, 255);
+}
+.bluefont-16px {
+	color: rgb(0, 166, 230); font-size: 16px; font-weight: bold;
+}
+a.link-666:link {
+	color: rgb(102, 102, 102); text-decoration: none;
+}
+a.link-666:visited {
+	color: rgb(102, 102, 102); text-decoration: none;
+}
+a.link-666:hover {
+	color: rgb(255, 153, 0);
+}
+a.link-U666:link {
+	color: rgb(102, 102, 102); text-decoration: underline;
+}
+a.link-U666:visited {
+	color: rgb(102, 102, 102); text-decoration: underline;
+}
+a.link-U666:hover {
+	color: rgb(255, 153, 0) !important;
+}
+a.link-b666 {
+	color: rgb(101, 101, 101); font-size: 14px; font-weight: bold; text-decoration: none;
+}
+a.link-b666:visited {
+	color: rgb(101, 101, 101); font-size: 14px; font-weight: bold; text-decoration: none;
+}
+a.link-b666:hover {
+	color: rgb(255, 153, 0); text-decoration: underline;
+}
+a.link-999:link {
+	color: rgb(153, 153, 153); text-decoration: none;
+}
+a.link-999:visited {
+	color: rgb(153, 153, 153); text-decoration: none;
+}
+a.link-999:hover {
+	color: rgb(255, 153, 0); text-decoration: none;
+}
+a.link-00a6e6:link {
+	color: rgb(0, 166, 230); text-decoration: none;
+}
+a.link-00a6e6:visited {
+	color: rgb(0, 166, 230); text-decoration: none;
+}
+a.link-00a6e6:active {
+	color: rgb(0, 166, 230); text-decoration: none;
+}
+a.link-00a6e6:hover {
+	color: rgb(255, 153, 0); text-decoration: none;
+}
+a.link-06f:link {
+	color: rgb(5, 57, 140); text-decoration: none;
+}
+a.link-06f:visited {
+	color: rgb(5, 57, 140); text-decoration: none;
+}
+a.link-06f:active {
+	color: rgb(5, 57, 140); text-decoration: none;
+}
+a.link-06f:hover {
+	color: rgb(255, 102, 0); text-decoration: none;
+}
+a.link-f60:link {
+	color: rgb(255, 102, 0); text-decoration: none;
+}
+a.link-f60:visited {
+	color: rgb(255, 102, 0); text-decoration: none;
+}
+a.link-f60:active {
+	color: rgb(255, 102, 0); text-decoration: none;
+}
+a.link-f60:hover {
+	color: rgb(255, 153, 0); text-decoration: none;
+}
+a.link-U00a6e6 {
+	color: rgb(0, 149, 218); font-size: 14px; text-decoration: underline;
+}
+a.link-U00a6e6:link {
+	color: rgb(0, 149, 218); font-size: 14px; text-decoration: underline;
+}
+a.link-U00a6e6:visited {
+	color: rgb(0, 149, 218); font-size: 14px; text-decoration: underline;
+}
+a.link-U00a6e6:hover {
+	color: rgb(255, 153, 0); text-decoration: underline;
+}
+a.link-U333 {
+	color: rgb(51, 51, 51); text-decoration: underline;
+}
+a.link-U333:link {
+	color: rgb(51, 51, 51); text-decoration: underline;
+}
+a.link-U333:visited {
+	color: rgb(51, 51, 51); text-decoration: underline;
+}
+a.link-U333:hover {
+	color: rgb(255, 153, 0);
+}
+a.link-444 {
+	color: rgb(68, 68, 68); text-decoration: none;
+}
+a.link-444:link {
+	color: rgb(68, 68, 68); text-decoration: none;
+}
+a.link-444:visited {
+	color: rgb(68, 68, 68); text-decoration: none;
+}
+a.link-444:hover {
+	color: rgb(255, 153, 0);
+}
+a.link-red:link {
+	color: red; text-decoration: none;
+}
+a.link-red:active {
+	color: red; text-decoration: none;
+}
+a.link-red:visited {
+	color: red; text-decoration: none;
+}
+a.link-red:hover {
+	text-decoration: underline;
+}
+a.link-333 {
+	color: rgb(51, 51, 51);
+}
+a.link-333:link {
+	color: rgb(51, 51, 51);
+}
+a.link-333:visited {
+	color: rgb(51, 51, 51);
+}
+a.link-333:hover {
+	color: rgb(255, 153, 0);
+}
+a.link-UF90:link {
+	color: rgb(255, 102, 0); font-family: sans-serif,"宋体"; text-decoration: underline;
+}
+a.link-UF90:visited {
+	color: rgb(255, 102, 0); font-family: sans-serif,"宋体"; text-decoration: underline;
+}
+a.link-UF90:hover {
+	color: rgb(239, 77, 88); text-decoration: underline;
+}
+a.link-fff:link {
+	color: rgb(255, 255, 255); font-family: sans-serif,"宋体"; text-decoration: underline;
+}
+a.link-fff:visited {
+	color: rgb(255, 255, 255); font-family: sans-serif,"宋体"; text-decoration: underline;
+}
+a.link-fff:hover {
+	color: rgb(255, 153, 0); font-family: sans-serif,"宋体"; text-decoration: underline;
+}
+a.link-beef:link {
+	color: rgb(238, 238, 255);
+}
+a.link-beef:visited {
+	color: rgb(238, 238, 255);
+}
+a.link-beef:hover {
+	font-weight: bold;
+}
+a.link-UF30:link {
+	color: rgb(255, 85, 0); text-decoration: underline;
+}
+a.link-UF30:visited {
+	color: rgb(255, 85, 0); text-decoration: underline;
+}
+a.link-UF30:hover {
+	color: rgb(239, 77, 88); text-decoration: underline;
+}
+.list_link a {
+	color: rgb(61, 129, 238);
+}
+.list_link a:link {
+	color: rgb(61, 129, 238);
+}
+.list_link a:visited {
+	color: rgb(61, 129, 238);
+}
+.blueb {
+	color: rgb(49, 85, 182) !important; font-weight: bold;
+}
+input.operation {
+	margin: 0px 2px; padding: 2px; border: 1px solid rgb(167, 182, 193); border-image: none; height: 22px; background-image: url("//image.sojump.com/images/wjx/JoinQuestionnaire/button_normal_bg.gif"); background-repeat: repeat-x;
+}
+.chengshefont {
+	color: rgb(255, 102, 0);
+}
+.divCom {
+	padding: 10px 0px; text-align: left; color: rgb(51, 51, 51); line-height: 18px;
+}
+
+a.sumitbutton {
+	background: rgb(241, 120, 25); padding: 0px 10px 0px 15px; border-radius: 5px; height: 30px; text-align: center; color: rgb(255, 255, 255) !important; line-height: 30px; font-size: 16px; text-decoration: none; vertical-align: middle; display: inline-block; cursor: pointer;
+}
+a.sumitbutton:visited {
+	background: rgb(241, 120, 25); padding: 0px 10px 0px 15px; border-radius: 5px; height: 30px; text-align: center; color: rgb(255, 255, 255) !important; line-height: 30px; font-size: 16px; text-decoration: none; vertical-align: middle; display: inline-block; cursor: pointer;
+}
+a.sumitbutton:hover {
+	background: rgb(253, 164, 32); color: rgb(255, 255, 255) !important;
+}
+a.cancle {
+	background: rgb(255, 255, 255); border: 1px solid rgb(173, 173, 173); border-image: none; height: 28px; color: rgb(51, 51, 51) !important; line-height: 28px;
+}
+a.cancle:visited {
+	background: rgb(255, 255, 255); border: 1px solid rgb(173, 173, 173); border-image: none; height: 28px; color: rgb(51, 51, 51) !important; line-height: 28px;
+}
+a.cancle:hover {
+	background: rgb(242, 248, 255); color: rgb(51, 51, 51) !important;
+}
+a.BS_btn {
+	background: rgb(57, 138, 189); padding: 0px 15px; border-radius: 6px; border: 0px currentColor; border-image: none; height: 26px; text-align: center; color: rgb(255, 255, 255) !important; line-height: 26px; font-size: 16px; text-decoration: none; display: inline-block;
+}
+a.BS_btn:hover {
+	background: rgb(49, 124, 180);
+}
+input.submitbutton {
+	background: rgb(241, 120, 25); padding: 0px 15px; border-radius: 5px; border: 0px currentColor; border-image: none; height: 30px; color: rgb(255, 255, 255); line-height: 30px; overflow: visible; font-size: 16px; display: inline-block; cursor: pointer;
+}
+input.submitbutton:hover {
+	background: rgb(253, 164, 32);
+}
+input.submitbutton_hover {
+	background: rgb(253, 164, 32);
+}
+
+.divhead864 {
+	margin: 15px auto 0px; width: 864px;
+}
+.iframecss {
+	border: 1px solid rgb(204, 221, 255); border-image: none; overflow: auto;
+}
+#post_list {
+	padding-top: 15px; padding-right: 0px; margin-top: 0px;
+}
+.post_item {
+	border-width: 1px; width: 540px; overflow: hidden; padding-bottom: 15px; margin-bottom: 15px; border-bottom-color: rgb(204, 204, 204); border-bottom-style: dotted;
+}
+.post_item_body {
+	line-height: 150%; padding-top: 1px; margin-left: 10px;
+}
+#post_list h3 {
+	margin: 0px 0px 5px; font-size: 14px; font-weight: bolder;
+}
+#post_list .post_item_summary {
+	color: rgb(68, 68, 68); line-height: 20px; overflow: hidden; padding-top: 5px; padding-right: 5px; font-size: 12px; margin-bottom: 5px;
+}
+a.titlelnk:link {
+	color: rgb(7, 93, 179); text-decoration: underline;
+}
+a.titlelnk:active {
+	color: rgb(7, 93, 179); text-decoration: underline;
+}
+a.titlelnk:visited {
+	color: rgb(7, 93, 179); text-decoration: underline;
+}
+a.titlelnk:hover {
+	color: red;
+}
+.font14px {
+	color: rgb(68, 68, 68); font-size: 14px;
+}
+.buttons a {
+	border-width: 1px; border-style: solid; border-color: rgb(222, 222, 222) rgb(187, 187, 187) rgb(191, 191, 191) rgb(222, 222, 222); margin: 0px 0.7em 0px 0px; padding: 5px 10px 6px; color: rgb(82, 146, 20); line-height: 130%; font-weight: bold; text-decoration: none; display: inline-block; cursor: pointer; background-color: rgb(245, 245, 245);
+}
+.buttons a:link {
+	border-width: 1px; border-style: solid; border-color: rgb(222, 222, 222) rgb(187, 187, 187) rgb(191, 191, 191) rgb(222, 222, 222); margin: 0px 0.7em 0px 0px; padding: 5px 10px 6px; color: rgb(82, 146, 20); line-height: 130%; font-weight: bold; text-decoration: none; display: inline-block; cursor: pointer; background-color: rgb(245, 245, 245);
+}
+.buttons a:visited {
+	border-width: 1px; border-style: solid; border-color: rgb(222, 222, 222) rgb(187, 187, 187) rgb(191, 191, 191) rgb(222, 222, 222); margin: 0px 0.7em 0px 0px; padding: 5px 10px 6px; color: rgb(82, 146, 20); line-height: 130%; font-weight: bold; text-decoration: none; display: inline-block; cursor: pointer; background-color: rgb(245, 245, 245);
+}
+.buttons a:active {
+	border-width: 1px; border-style: solid; border-color: rgb(222, 222, 222) rgb(187, 187, 187) rgb(191, 191, 191) rgb(222, 222, 222); margin: 0px 0.7em 0px 0px; padding: 5px 10px 6px; color: rgb(82, 146, 20); line-height: 130%; font-weight: bold; text-decoration: none; display: inline-block; cursor: pointer; background-color: rgb(245, 245, 245);
+}
+.buttons a:hover {
+	border: 1px solid rgb(167, 206, 223); text-decoration: underline; background-color: rgb(223, 244, 255);
+}
+.buttons a img {
+	margin: 0px 3px -3px 0px;
+}
+.s_help_biaoti {
+	text-align: center; color: rgb(255, 255, 255); line-height: 20px; font-size: 14px; font-weight: bold;
+}
+.font-999 {
+	color: rgb(153, 153, 153);
+}
+.font-666 {
+	color: rgb(102, 102, 102);
+}
+.font-18px {
+	font-size: 16px;
+}
+.txtleft {
+	text-align: left;
+}
+.B {
+	font-weight: bold;
+}
+.bg {
+	background: rgb(242, 255, 255);
+}
+.font {
+	color: rgb(0, 166, 230);
+}
+.font-3d81ee {
+	color: rgb(61, 129, 238);
+}
+.font-06f {
+	color: rgb(0, 102, 255);
+}
+.font-a0 {
+	color: rgb(160, 160, 160);
+}
+.font-red {
+	color: red;
+}
+.biaoti {
+	color: rgb(85, 85, 85); font-weight: bold;
+}
+.edited {
+	color: rgb(255, 255, 255); font-size: 14px; text-decoration: none;
+}
+.table_big_text {
+	color: rgb(255, 255, 255); line-height: 18px; font-size: 13px; font-weight: bold;
+}
+.s_remark_h {
+	color: rgb(51, 51, 51); line-height: 20px; font-size: 13px;
+}
+.bluefont-14px {
+	color: green; line-height: 30px; font-size: 18px; font-weight: bold; vertical-align: top;
+}
+.font_f60_14px {
+	color: rgb(68, 68, 68); font-size: 14px; font-weight: bold;
+}
+.greenfont {
+	color: green;
+}
+.biaotiUserInfo {
+	color: rgb(0, 102, 255); font-size: 12px;
+}
+.note {
+	height: 20px; color: rgb(102, 102, 102); font-size: 12px;
+}
+.font_green_16px_line30px {
+	color: rgb(255, 102, 0); line-height: 30px; font-size: 16px; font-weight: bold; margin-top: 15px; float: left;
+}
+a.link_green {
+	color: green; text-decoration: none;
+}
+a.link_green:link {
+	color: green; text-decoration: none;
+}
+a.link_green:active {
+	color: green; text-decoration: none;
+}
+a.link_green:visited {
+	color: green; text-decoration: none;
+}
+a.link_green:hover {
+	color: rgb(255, 153, 0); text-decoration: none;
+}
+.divRight {
+	padding: 3px; border: 1px solid rgb(220, 228, 237); border-image: none; line-height: 20px; clear: both; margin-top: 20px; vertical-align: bottom; float: left; background-image: url("//image.sojump.com/images/wjx/jq/wjxx_bj.jpg"); background-repeat: repeat-x;
+}
+.biaoti2 {
+	color: rgb(118, 1, 1); font-size: 14px; font-variant: small-caps; font-weight: bold;
+}
+.normallink6 {
+	color: rgb(0, 102, 255); font-size: 12px; text-decoration: none;
+}
+b.rbottom {
+	background: rgb(255, 255, 255); margin: 0px auto; width: 850px; display: block;
+}
+b.rtop {
+	background: rgb(255, 255, 255); margin: 0px auto; width: 850px; display: block;
+}
+b.rbottom b {
+	background: rgb(104, 155, 206); height: 1px; overflow: hidden; display: block;
+}
+b.rtop b {
+	background: rgb(104, 155, 206); height: 1px; overflow: hidden; display: block;
+}
+b.r1 {
+	margin: 0px 5px;
+}
+b.r2 {
+	margin: 0px 3px;
+}
+b.r3 {
+	margin: 0px 2px;
+}
+b.rbottom b.r4 {
+	margin: 0px 1px; height: 1px;
+}
+b.rtop b.r4 {
+	margin: 0px 1px; height: 1px;
+}
+.BgImgTouMing {
+	padding: 0px; text-align: left;
+}
+.BgImgBuTouMing {
+	margin: 0px; background-color: rgb(255, 255, 255);
+}
+#container {
+	background: rgb(255, 255, 255); margin: 1px auto 0px; padding: 0px; width: 920px; text-align: left;
+}
+#headerpub {
+	width: 920px; height: 65px; color: rgb(51, 51, 51); position: relative; background-image: url("//image.sojump.com/images/WJX/JQ/bj.jpg"); background-repeat: repeat-x;
+}
+#headerpub img {
+	margin-left: 5px; float: left;
+}
+.navpub {
+	width: 552px; height: 60px; padding-right: 10px; float: right;
+}
+.navpub span {
+	margin-left: 10px;
+}
+.navpub ul {
+	float: left;
+}
+.navpub ul li {
+	margin: 0px 0px 0px 10px; padding: 0px; float: left;
+}
+.navpub ul li a {
+	line-height: 20px; padding-left: 19px;
+}
+.navpub ul li.DesignNewQ a {
+	background: none; padding: 3px 0px 6px 2px; border: 0px currentColor; border-image: none;
+}
+.navpub ul li.wjxhelppub a {
+	background: none; padding: 3px 0px 6px 2px; border: 0px currentColor; border-image: none;
+}
+.navpub ul li.exit a {
+	background: none; padding: 3px 0px 6px 2px; border: 0px currentColor; border-image: none;
+}
+input {
+	font-family: "微软雅黑","Lucida Grande",Helvetica,Arial,Verdana,sans-serif; font-size: 12px;
+}
+button {
+	font-family: "微软雅黑","Lucida Grande",Helvetica,Arial,Verdana,sans-serif; font-size: 12px;
+}
+#W-header {
+	background: rgb(226, 239, 247); width: 100%; height: 160px;
+}
+.c-header {
+	margin: 0px auto; padding: 35px 12px 0px; width: 966px; height: 112px; overflow: hidden;
+}
+.sojump_2016logo {
+	width: 286px; height: 92px; text-align: left; padding-left: 5px; float: left;
+}
+.W-sojump_image {
+	width: 183px; height: 92px; text-align: left; position: relative; background-image: url("//image.sojump.com/images/index2016/sojump2016logo.png") !important; background-repeat: no-repeat; _background-image: none;
+}
+.W-sojump_image h1 {
+	background: none; margin: 0px; padding: 0px; border: currentColor; border-image: none; top: 75px; color: rgb(68, 68, 68); letter-spacing: 1.1px; font-size: 12px; font-weight: normal; display: inline; position: absolute; _top: 70px;
+}
+.W-header_r {
+	width: 675px; height: 112px; overflow: hidden; float: left;
+}
+.W-header_reg {
+	margin: 0px auto; height: 30px; text-align: right; padding-right: 15px; font-size: 16px; float: right;
+}
+.W-header_reg ul {
+	margin: auto; padding: 0px;
+}
+.W-header_reg ul li {
+	padding: 0px; line-height: 30px; font-size: 14px; margin-left: 12px; float: left; display: inline;
+}
+a.new_titxt {
+	color: rgb(85, 85, 85); font-size: 16px;
+}
+a.new_titxt:hover {
+	color: rgb(255, 153, 0);
+}
+.W-Menu {
+	margin: 28px auto 0px; padding: 0px; width: 675px; float: right;
+}
+.W-Menu ul {
+	margin: 0px; padding: 0px;
+}
+.W-Menu ul li {
+	margin: 0px 24px; padding: 0px 6px; letter-spacing: 2px; float: left; display: inline; cursor: pointer;
+}
+.W-Menu ul li a {
+	color: rgb(106, 106, 106); font-size: 18px;
+}
+.W-Menu ul li a:visited {
+	color: rgb(106, 106, 106); font-size: 18px;
+}
+.W-Menu ul li a:hover {
+	color: rgb(231, 120, 23); padding-bottom: 4px; border-bottom-color: rgb(231, 120, 23); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.W-Menu ul li.acitve {
+	padding-bottom: 4px; border-bottom-color: rgb(231, 120, 23); border-bottom-width: 2px; border-bottom-style: solid;
+}
+#Wfooter {
+	background: rgb(246, 246, 246); margin: 0px auto; width: 100%; overflow: hidden; position: relative; min-width: 980px;
+}
+#Wcontact {
+	margin: 30px auto 15px; width: 980px; overflow: auto;
+}
+.W-ulCons {
+	padding: 0px 0px 0px 20px; width: 175px; height: 125px; text-align: left; overflow: hidden; border-left-color: rgb(229, 229, 229); border-left-width: 1px; border-left-style: solid; float: left;
+}
+.W-ulCons li {
+	width: 165px; text-align: left; line-height: 22px; text-indent: 3.5em;
+}
+.i-Common {
+	line-height: 34px !important;
+}
+.W-ulCons li b {
+	font-size: 16px;
+}
+
+.W-coypright {
+	margin: 0px auto 10px; padding: 2px 0px 5px; width: 990px; height: 52px; overflow: hidden; border-bottom-color: rgb(199, 199, 199); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.WalCons {
+	margin: 5px 0px 0px; padding: 0px 0px 0px 9px; float: left;
+}
+.WalCons li {
+	margin: 0px; padding: 0px; color: rgb(153, 153, 153); font-size: 14px; float: left;
+}
+.W-mark {
+	width: 220px !important; letter-spacing: 11px; font-size: 12px !important;
+}
+.W-Rttx {
+	padding-right: 24px;
+}
+.W-fttx {
+	padding-top: 25px;
+}
+.Walcons_txt {
+	margin: 7px 0px 0px; color: rgb(102, 102, 102); font-family: Verdana, Geneva, sans-serif; font-size: 12px; float: right; opacity: 0.9; -moz-opacity: 0.9;
+}
+#Wfooter a {
+	color: rgb(123, 123, 123); font-size: 14px;
+}
+#Wfooter a:hover {
+	color: rgb(231, 120, 23); font-size: 14px;
+}
+.W-Fimg {
+	margin: 0px auto; padding: 5px 0px 15px; width: 1000px; overflow: hidden;
+}
+.W-Fimg li {
+	margin: 0px 4px; border: 1px solid rgb(199, 199, 199); border-image: none; width: 125px; height: 45px; float: left;
+}
+a.a555 {
+	color: rgb(85, 85, 85) !important; font-size: 12px; text-decoration: none;
+}
+a.a555:hover {
+	color: rgb(255, 153, 0) !important; text-decoration: underline;
+}
+#divFAQ {
+	background: rgb(204, 237, 252); border: 1px solid rgb(204, 237, 253); border-image: none; padding-top: 8px;
+}
+#divFAQ span {
+	color: rgb(85, 85, 85); line-height: 26px; padding-top: 10px; font-weight: bold; display: inline;
+}
+#divFAQ ul {
+	line-height: 20px; margin-left: 15px;
+}
+#divFAQ ul li {
+	margin-left: 16px; list-style-type: disc;
+}
+#divFAQ ul li a:link {
+	color: rgb(102, 102, 102); text-decoration: none;
+}
+#divFAQ ul li a:visited {
+	color: rgb(102, 102, 102); text-decoration: none;
+}
+#divFAQ ul li a:hover {
+	color: rgb(255, 153, 0); text-decoration: none;
+}
+.divTWen {
+	font-size: 12px; font-weight: bold; margin-top: 5px; margin-bottom: 5px; margin-left: 80px;
+}
+.menu-2 {
+	margin: 0px auto; width: 850px;
+}
+.liSelect {
+	background: rgb(255, 252, 219) !important; border: 1px solid rgb(249, 150, 10) !important; border-image: none !important;
+}
+.divResultCss {
+	padding: 0px 0px 5px; height: 24px; text-align: center; color: rgb(31, 55, 109);
+}
+.divResultCss ul li {
+	background: rgb(255, 255, 255); border-radius: 3px; border: 1px solid rgb(219, 219, 219); border-image: none; line-height: 24px; margin-left: 12px; float: left;
+}
+.divResultCss ul li a {
+	padding: 4px 4px 4px 22px; height: 16px; color: rgb(31, 55, 109); text-decoration: none;
+}
+.divResultCss ul li a:visited {
+	padding: 4px 4px 4px 22px; height: 16px; color: rgb(31, 55, 109); text-decoration: none;
+}
+.divResultCss ul li a:hover {
+	color: rgb(255, 153, 0);
+}
+.bingtu {
+	background: url("../img/pie.gif") no-repeat 4px 4px;
+}
+.donut {
+	background: url("../img/donut.gif") no-repeat 4px 4px;
+}
+.zhutu {
+	background: url("../img/column3d.gif") no-repeat 4px 4px;
+}
+.tiao {
+	background: url("../img/bar2d.gif") no-repeat 4px 4px;
+}
+.zhexian {
+	background: url("../img/line.gif") no-repeat 4px 4px;
+}
+.leida {
+	background: url("../img/leidatu.gif") no-repeat 2px 2px;
+}
+.biaoge {
+	background: url("../img/juzhenti.gif") no-repeat 4px 4px;
+}
+.smenu-1 li {
+	width: 117px; height: 28px !important; text-align: center; line-height: 28px !important; padding-top: 0px; float: left; display: block; cursor: pointer;
+}
+.smenu-1 {
+	margin: 0px; padding: 0px; height: 28px; border-right-color: rgb(220, 228, 237); border-right-width: 1px; border-right-style: solid; float: left;
+}
+.smenu-2 {
+	margin: 0px; padding: 0px; width: 833px; height: 360px; border-right-color: rgb(220, 228, 237); border-bottom-color: rgb(220, 228, 237); border-left-color: rgb(220, 228, 237); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; float: left;
+}
+.spanLeft {
+	float: left;
+}
+.spanRight {
+	float: right;
+}
+.inputtext {
+	padding: 3px; border: 1px solid rgb(205, 205, 205); border-image: none; vertical-align: middle;
+}
+.underline {
+	border-width: 1px; border-style: solid; border-color: transparent transparent rgb(205, 205, 205); padding: 3px; border-image: none; background-color: transparent; _border-color: white;
+}
+.inputtext:focus {
+	border: 1px solid rgb(83, 164, 244); border-image: none;
+}
+.underline:focus {
+	border: 1px solid rgb(83, 164, 244); border-image: none;
+}
+#content {
+	height: auto;
+}
+.QDes {
+	padding: 0px 10px; text-align: left; color: rgb(85, 85, 85); line-height: 20px;
+}
+#saveLink a:link {
+	color: blue;
+}
+#saveLink a:hover {
+	color: rgb(245, 61, 5);
+}
+#abort a:link {
+	color: red;
+}
+#abort a:visited {
+	color: red;
+}
+.main_title {
+	padding: 10px 0px; width: 540px; text-align: center; font-size: 20px; font-weight: bold;
+}
+.register_div {
+	width: 150px; padding-right: 5px; float: right;
+}
+.btn_div_preview {
+	margin-top: 10px; margin-bottom: 5px; margin-left: 340px;
+}
+.btn_div_input {
+	margin-top: 10px; margin-bottom: 5px; margin-left: 420px;
+}
+.divNoPub ul li {
+	width: 212px; height: 102px; color: rgb(102, 102, 102); vertical-align: middle; float: left;
+}
+
+.divNoPub .helper-caption {
+	width: 176px;
+}
+.divNoPub .helper-caption span {
+	color: rgb(68, 68, 68); font-size: 13px; font-weight: bold;
+}
+.divNoPub ul li a {
+	color: rgb(68, 68, 68) !important;
+}
+.downMenu ul {
+	margin: 0px; padding: 0px;
+}
+.downMenu ul li {
+	margin-top: 0px;
+}
+.downMenu ul li a {
+	background: rgb(232, 236, 242); border-width: medium 1px 1px; border-style: none solid solid; border-color: currentColor rgb(194, 211, 237) rgb(194, 211, 237); margin: 0px; border-image: none; width: 80px; height: 22px; color: rgb(32, 95, 162) !important; padding-top: 7px; padding-bottom: 0px; text-decoration: none; display: inline-block; cursor: pointer;
+}
+
+.linediv {
+	background: 0px 0px rgb(183, 183, 185); margin: 3px 0px; padding: 0px; width: 100%; height: 2px; line-height: 0; clear: both; font-size: 0px;
+}
+a.indexcase {
+	color: rgb(255, 255, 255); font-size: 18px;
+}
+a.indexcase:visited {
+	color: rgb(255, 255, 255); font-size: 18px;
+}
+a.indexcase:hover {
+	color: rgb(255, 255, 0);
+}
+.btn {
+	color: rgb(255, 255, 255);
+}
+.btn:link {
+	color: rgb(255, 255, 255);
+}
+.btn:visited {
+	color: rgb(255, 255, 255);
+}
+.site-samplebtn {
+	color: rgb(7, 93, 179);
+}
+.site-samplebtn:link {
+	color: rgb(7, 93, 179);
+}
+.site-samplebtn:visited {
+	color: rgb(7, 93, 179);
+}
+.btn {
+	transition:150ms ease-in-out; text-align: center; text-decoration: none; display: inline-block; cursor: pointer; box-sizing: border-box;
+}
+.btn-s.btn {
+	padding: 0px 20px; border-radius: 4px; height: 32px; line-height: 32px; font-size: 14px;
+}
+.btn-m.btn {
+	padding: 0px 20px; border-radius: 4px; height: 38px; line-height: 38px; font-size: 15px;
+}
+.btn-l.btn {
+	padding: 0px 25px; border-radius: 4px; height: 40px; line-height: 40px; font-size: 18px;
+}
+.btn-start.btn {
+	padding: 0px 40px;
+}
+.site-res {
+	background: rgb(247, 148, 29); color: rgb(255, 255, 255);
+}
+.site-res:hover {
+	background: rgb(239, 119, 17); color: rgb(255, 255, 255);
+}
+.site-login {
+	background: none; border: 1px solid rgb(247, 148, 29); border-image: none; color: rgb(247, 148, 29);
+}
+.site-login:hover {
+	background: rgb(247, 148, 29); color: rgb(255, 255, 255);
+}
+.site-bluebtn {
+	background: rgb(0, 149, 218); color: rgb(255, 255, 255);
+}
+.site-bluebtn:hover {
+	background: rgb(5, 162, 235); color: rgb(255, 255, 255);
+}
+.site-samplebtn {
+	background: none; border: 1px solid rgb(0, 149, 218); border-image: none;
+}
+.site-samplebtn:hover {
+	color: rgb(255, 255, 255); background-color: rgb(0, 149, 218);
+}
+.site-greenbtn {
+	background: rgb(141, 198, 63); color: rgb(255, 255, 255) !important;
+}
+.site-greenbtn:hover {
+	background: rgb(125, 181, 49);
+}
+.site-font28 {
+	color: rgb(68, 68, 68); font-size: 28px;
+}
+.site-fcolor {
+	color: rgb(0, 149, 218);
+}
+
+.site-banner-box {
+	margin: 0px auto; padding: 190px 0px 0px; width: 990px; text-align: center;
+}
+.site-wjxdate {
+	height: 27px; color: rgb(255, 255, 255); line-height: 27px; letter-spacing: 2px; clear: both; font-size: 16px;
+}
+.site-font22 {
+	font-size: 16px; font-weight: 600; display: inline-block;
+}
+.site-start {
+	padding-top: 26px; margin-bottom: 20px; display: inline-block;
+}
+.site-start a {
+	float: left;
+}
+.site-menuwrapper {
+	background: rgba(255, 255, 255, 0.15); margin: 78px 0px 0px; width: 100%; height: 68px; position: relative;
+}
+.site-menu {
+	margin: 0px auto; padding: 8px 4px; width: 990px; height: 52px; color: rgb(255, 255, 255); overflow: hidden;
+}
+.site-menu li {
+	padding: 0px; width: 162px; text-align: center; line-height: 52px; border-left-color: rgb(141, 141, 141); border-left-width: 1px; border-left-style: solid; float: left; cursor: pointer;
+}
+.site-home {
+	width: 100%; text-align: center; overflow: hidden; font-size: 16px;
+}
+.site-bck {
+	background: rgb(244, 244, 244); width: 100%;
+}
+.site-section {
+	margin: 0px auto; padding: 64px 0px 55px; width: 990px; overflow: hidden;
+}
+.section-img-left {
+	margin: 0px 0px 0px 45px; float: left;
+}
+.section-img-right {
+	float: right;
+}
+.section-rblank {
+	margin-right: 60px;
+}
+.section-description {
+	margin: 15px 0px 0px 20px; width: 510px; text-align: left; float: right;
+}
+.section-description-title {
+	color: rgb(68, 68, 68); font-size: 26px; margin-bottom: 15px;
+}
+.section-content {
+	padding: 0px; width: 409px; overflow: hidden;
+}
+.section-content li {
+	margin: 0px 0px 0px 5px; padding: 6px 0px; width: 195px; float: left;
+}
+.section-content li img {
+	margin: 0px 12px 0px 0px; padding: 0px;
+}
+.section-subtitle {
+	margin: 15px 0px 25px; line-height: 22px;
+}
+.section-sump a {
+	margin: 0px 20px 0px 10px;
+}
+.section-part2-content {
+	margin: 40px auto 50px; text-align: center; overflow: hidden;
+}
+.section-part2-content li {
+	margin: 0px 15px 0px 10px; width: 15%; display: inline-block;
+}
+.section-part2-content li p {
+	background: rgb(128, 130, 130); color: rgb(255, 255, 255); line-height: 48px;
+}
+.section-part2-content li i {
+	width: 148px; height: 90px; display: block;
+}
+
+.section-part3 {
+	margin: 40px auto 0px; width: 628px;
+}
+.section-part3-img {
+	float: left;
+}
+.section-vote-content {
+	float: right;
+}
+.section-vote-CC {
+	background: url("/images/index1030/section-part3-vote2.jpg") no-repeat; margin: 40px 0px 20px; padding: 40px 0px 0px 65px; width: 186px; height: 166px;
+}
+.section-vote-CC li {
+	margin: 10px 0px 15px; width: 110px; text-align: left; display: block;
+}
+.section-vote-CC li img {
+	margin: 0px 12px 0px 0px; padding: 0px;
+}
+.section-form-content {
+	padding: 0px; width: 355px; overflow: hidden;
+}
+.section-form-content li {
+	margin: 0px 0px 0px 5px; width: 140px; height: 21px;
+}
+.section-t-blank {
+	width: 480px; margin-top: 40px; float: left;
+}
+.section-Evaluation-width {
+	margin-top: 40px;
+}
+.W-Clients {
+	background: rgb(255, 255, 255); margin: 65px auto 35px; width: 100%; overflow: hidden;
+}
+.W-Flist {
+	margin: 0px auto; width: 980px;
+}
+.W-hoverbox {
+	margin: 0px auto; padding: 45px 0px 0px; width: 980px; overflow: hidden; clear: both;
+}
+.W-NClient {
+	margin: 0px auto; width: 980px; text-align: center; line-height: 30px; overflow: hidden; font-size: 18px;
+}
+.W-hoverbox img {
+	width: 114px; height: 130px; color: inherit;
+}
+.W-hoverbox li {
+	margin-right: 30px; float: left;
+}
+.W-CTbox {
+	margin: 25px auto 0px; border: 1px solid rgb(53, 150, 206); border-image: none; width: 980px; height: 110px; display: none; position: relative;
+}
+.W-CTboxC {
+	margin: 15px 0px; width: 110px; height: 80px; text-align: center; color: rgb(14, 82, 122); line-height: 80px; font-size: 22px; font-weight: normal; border-right-color: rgb(221, 221, 221); border-right-width: 1px; border-right-style: solid; float: left;
+}
+.W-CTbox-C {
+	margin: 0px; padding: 0px; width: 860px; float: left;
+}
+.W-CTbox-C li {
+	margin: 0px 6px 0px 12px; line-height: 110px; float: left;
+}
+.W-CTbox-C li img {
+	vertical-align: middle;
+}
+.W-CTbox em {
+	border-width: 15px; border-style: dashed dashed solid; border-color: transparent transparent rgb(53, 150, 206); left: 42px; top: -30px; line-height: 0; font-size: 0px; display: block; position: absolute;
+}
+.W-CTbox span {
+	border-width: 15px; border-style: dashed dashed solid; border-color: transparent transparent rgb(255, 255, 255); left: 42px; top: -28px; line-height: 0; font-size: 0px; display: block; position: absolute;
+}
+.WTriangle span {
+	left: 186px;
+}
+.WTriangle em {
+	left: 186px;
+}
+.WTriangle2 span {
+	left: 330px;
+}
+.WTriangle2 em {
+	left: 330px;
+}
+.WTriangle3 span {
+	left: 474px;
+}
+.WTriangle3 em {
+	left: 474px;
+}
+.WTriangle4 span {
+	left: 618px;
+}
+.WTriangle4 em {
+	left: 618px;
+}
+.WTriangle5 span {
+	left: 762px;
+}
+.WTriangle5 em {
+	left: 762px;
+}
+.WTriangle6 span {
+	left: 908px;
+}
+.WTriangle6 em {
+	left: 908px;
+}
+#Tags {
+	width: 980px;
+}
+#tagContent div.selectTag {
+	display: block;
+}
+.greenfont-14px {
+	color: green; font-size: 14px;
+}
+.liline {
+	margin: 0px; padding: 0px; height: 10px; line-height: 0; clear: both; border-bottom-color: rgb(239, 239, 239); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#ulfaq li a:hover {
+	color: rgb(255, 153, 0);
+}
+#ulfaq li a {
+	color: rgb(68, 68, 68);
+}
+.dianfont {
+	padding: 0px 3px 0px 0px; height: 1px; line-height: 16px; font-size: 8px; display: inline; -webkit-text-size-adjust: none;
+}
+.bordCss {
+	border-width: 5px 0px 5px 5px; border-style: dashed dashed dashed solid; border-color: transparent transparent transparent rgb(255, 153, 0); margin: 2px 2px 0px 0px; width: 0px; height: 0px; line-height: 0; overflow: hidden; font-size: 0px; display: inline-block;
+}
+.bordCssGreen {
+	border-color: transparent transparent transparent rgb(38, 133, 13); margin: 2px 3px 0px 0px;
+}
+.bordBottomCss {
+	border-width: 5px 5px 0px; border-style: solid dashed dashed; border-color: rgb(255, 153, 0) transparent transparent; margin: 0px;
+}
+.bordBottomCssN {
+	border-width: 3px 3px 0px; border-style: solid dashed dashed; border-color: rgb(51, 51, 51) transparent transparent; margin: 0px 0px 4px 2px;
+}
+.bordBottomCssNF {
+	border-width: 3px 3px 0px; border-style: solid dashed dashed; border-color: rgb(255, 255, 255) transparent transparent; margin: 0px 0px 4px 2px;
+}
+.spanLeftTxt {
+	line-height: 24px; display: inline-block; cursor: pointer;
+}
+
+.copyqbg {
+	background-position: -20px 0px; width: 16px; height: 16px; margin-right: 5px;
+}
+.jiangbg {
+	background-position: -40px 0px; width: 16px; height: 16px; margin-right: 5px;
+}
+.searchbg {
+	background-position: -60px 0px; width: 13px; height: 15px; margin-right: 5px;
+}
+.cepingbg {
+	background-position: -77px 2px; width: 16px; height: 16px; margin-right: 5px;
+}
+.designQbg {
+	background-position: -95px 0px; width: 16px; height: 16px;
+}
+.wjxhelpbg {
+	background-position: -115px 0px; width: 16px; height: 16px;
+}
+
+#stuff ul {
+	margin: 1px 0px 1px 5px; width: auto; float: left;
+}
+#stuff li {
+	padding: 0px; clear: none; float: left;
+}
+#stuff li a {
+	background-position: 7px 3px; margin: 2px 0px; padding: 0px 6px 0px 27px; border: 1px solid rgb(245, 245, 245); border-image: none; color: rgb(69, 69, 69); line-height: 22px; text-decoration: none; display: inline-block; cursor: pointer; background-repeat: no-repeat;
+}
+#sutff li a:active {
+	background-position: 7px 3px; margin: 2px 0px; padding: 0px 6px 0px 27px; border: 1px solid rgb(245, 245, 245); border-image: none; color: rgb(69, 69, 69); line-height: 22px; text-decoration: none; display: inline-block; cursor: pointer; background-repeat: no-repeat;
+}
+#stuff li a:hover {
+	border: 1px solid rgb(194, 225, 239); border-image: none; color: rgb(51, 102, 153); background-color: rgb(223, 244, 255);
+}
+#stuff li a.hover {
+	border: 1px solid rgb(194, 225, 239); border-image: none; color: rgb(51, 102, 153); background-color: rgb(223, 244, 255);
+}
+
+#divFlashSet {
+	background: rgb(238, 239, 255); padding: 10px; border: 2px solid rgb(153, 153, 153); border-image: none; width: 240px; line-height: 16px; font-size: 12px; margin-top: 300px; float: left;
+}
+.text2 {
+	color: rgb(51, 51, 51); line-height: 18px; font-size: 12px;
+}
+.tableCellPadding {
+	padding: 1px 15px 1px 0px; text-align: left; white-space: nowrap;
+}
+.text {
+	color: rgb(68, 68, 68); line-height: 20px; font-size: 12px;
+}
+#main {
+	margin: 0px 0px 0px 20px; padding: 20px 0px;
+}
+#rbbox {
+	right: 0px; bottom: 0px; overflow: hidden; font-size: 12px; position: absolute; z-index: 999999;
+}
+.messagetck {
+	background: rgb(90, 158, 0); padding: 5px; border: 1px solid rgb(207, 225, 159); border-image: none; width: 279px;
+}
+.message_content {
+	background: white; padding: 10px 15px; border: 1px solid white; border-image: none;
+}
+.message_h1_span1 {
+	height: 23px; color: rgb(51, 51, 51); line-height: 23px; font-size: 14px; font-weight: bold; float: left;
+}
+.message_h1_span2 {
+	float: right;
+}
+.message_text {
+	padding: 0px 0px 0px 10px; text-align: left;
+}
+.divContent {
+	padding: 3px; width: 220px; color: rgb(31, 51, 107); line-height: 18px; font-size: 12px;
+}
+.tableResult {
+	border-top-color: rgb(215, 215, 215); border-left-color: rgb(215, 215, 215); border-top-width: 1px; border-left-width: 1px; border-top-style: solid; border-left-style: solid;
+}
+.tableResult td {
+	border-right-color: rgb(215, 215, 215); border-bottom-color: rgb(215, 215, 215); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+.trCss {
+	background: rgb(238, 238, 238); height: 20px; text-align: center; font-weight: bold;
+}
+.divContentscore {
+	background: rgb(239, 246, 251); padding: 10px; border: 0px currentColor; border-image: none; width: 474px; color: rgb(68, 68, 68);
+}
+#divMMU li {
+	width: 760px; margin-top: 8px;
+}
+.liLeft {
+	background: rgb(239, 247, 255); padding: 5px 0px; margin-right: 15px;
+}
+.spanDate {
+	padding-left: 15px; font-weight: bold;
+}
+.divQ {
+	width: 212px; height: 560px; overflow: auto; margin-bottom: 10px; margin-left: 4px; vertical-align: middle; white-space: nowrap;
+}
+.MenuBox .titBox a {
+	color: rgb(0, 0, 51); padding-left: 20px; font-size: 12px; display: block;
+}
+.MenuBox .titBox a:visited {
+	color: rgb(0, 0, 51); padding-left: 20px; font-size: 12px; display: block;
+}
+.MenuBox2 .titBox a {
+	color: rgb(0, 0, 51); padding-left: 20px; font-size: 12px; display: block;
+}
+.MenuBox2 .titBox a:visited {
+	color: rgb(0, 0, 51); padding-left: 20px; font-size: 12px; display: block;
+}
+
+.MenuBox2 .txtBox {
+	display: none;
+}
+.MenuBox .txtBox ul li {
+	line-height: 150%; padding-left: 48px;
+}
+.MenuBox .txtBox .num {
+	color: rgb(238, 0, 0);
+}
+
+.MenuBox2 .txtBottom {
+	display: none;
+}
+.MenuBox .txtBottom ul li {
+	line-height: 150%; padding-left: 48px;
+}
+.MenuBox .txtBottom .num {
+	color: rgb(238, 0, 0);
+}
+
+.divMouse {
+	text-align: left;
+}
+.divMouse li a {
+	margin: 0px; color: rgb(102, 102, 102); padding-right: 6px; padding-bottom: 0px; padding-left: 4px; text-decoration: none; display: inline-block; cursor: pointer; background-repeat: no-repeat;
+}
+.divMouse li a:visited {
+	margin: 0px; color: rgb(102, 102, 102); padding-right: 6px; padding-bottom: 0px; padding-left: 4px; text-decoration: none; display: inline-block; cursor: pointer; background-repeat: no-repeat;
+}
+.divMouse li a:hover {
+	color: rgb(255, 255, 255); background-color: rgb(51, 102, 204);
+}
+ul.stat_tab {
+	height: 33px; padding-top: 30px; border-bottom-color: rgb(215, 215, 215); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+ul.stat_tab li.current {
+	height: 31px; font-weight: 600; border-top-color: rgb(0, 162, 202); border-bottom-color: rgb(255, 255, 255); border-top-width: 2px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+ul.stat_tab li {
+	padding: 0px 16px; border-radius: 2px; height: 33px; text-align: center; color: rgb(102, 102, 102); line-height: 33px; font-size: 14px; margin-left: -1px; border-top-color: rgb(221, 221, 221); border-right-color: rgb(221, 221, 221); border-left-color: rgb(221, 221, 221); border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid; float: left; display: block;
+}
+ul.stat_tab li a {
+	color: rgb(102, 102, 102);
+}
+ul.stat_tab li a:visited {
+	color: rgb(102, 102, 102);
+}
+ul.stat_tab li a:hover {
+	color: rgb(0, 153, 204);
+}
+
+.btnsNormal a {
+	width: 73px; text-align: center; color: rgb(68, 68, 68) !important; line-height: 17px; padding-top: 5px; padding-bottom: 2px; font-size: 13px; font-weight: bold; text-decoration: none; margin-left: 12px; float: left; display: inline; cursor: pointer; background-image: url("//image.sojump.com/images/html/promotemsg/searchonbgNo.gif");
+}
+.btnsActive a {
+	width: 73px; text-align: center; color: rgb(255, 255, 255) !important; line-height: 17px; padding-top: 5px; padding-bottom: 2px; font-size: 13px; font-weight: bold; text-decoration: none; margin-left: 12px !important; float: left; display: inline; cursor: pointer; background-image: url("//image.sojump.com/images/html/promotemsg/searchonbg.gif");
+}
+
+.btnsNormal a:visited {
+	color: rgb(68, 68, 68);
+}
+.btnsNormalL a {
+	width: 108px; text-align: center; color: rgb(68, 68, 68) !important; line-height: 17px; padding-top: 5px; padding-bottom: 2px; font-size: 13px; font-weight: bold; text-decoration: none; margin-left: 15px; float: left; display: block; cursor: pointer; background-image: url("//image.sojump.com/images/html/promotemsg/searchonbgLNo.gif");
+}
+.btnsActiveL a {
+	width: 108px; text-align: center; color: rgb(255, 255, 255) !important; line-height: 17px; padding-top: 5px; padding-bottom: 2px; font-size: 13px; font-weight: bold; text-decoration: none; margin-left: 15px; float: left; display: block; cursor: pointer; background-image: url("//image.sojump.com/images/html/promotemsg/searchonbgL.gif");
+}
+
+.btnsNormalL a:visited {
+	color: rgb(68, 68, 68);
+}
+.btnsNormalLL a {
+	width: 128px; text-align: center; color: rgb(68, 68, 68) !important; line-height: 17px; padding-top: 5px; padding-bottom: 2px; font-size: 13px; font-weight: bold; text-decoration: none; margin-left: 15px; float: left; display: block; cursor: pointer; background-image: url("//image.sojump.com/images/html/promotemsg/searchonbgLLNo.gif");
+}
+.btnsActiveLL a {
+	width: 128px; text-align: center; color: rgb(255, 255, 255) !important; line-height: 17px; padding-top: 5px; padding-bottom: 2px; font-size: 13px; font-weight: bold; text-decoration: none; margin-left: 15px; float: left; display: block; cursor: pointer; background-image: url("//image.sojump.com/images/html/promotemsg/searchonbgLL.gif");
+}
+
+.btnsNormalLL a:visited {
+	color: rgb(68, 68, 68);
+}
+.btns a:active {
+	color: rgb(255, 255, 255); background-color: rgb(98, 153, 197);
+}
+.divPromoteService {
+	margin: 0px auto; padding: 10px 0px 20px; width: 840px; color: rgb(68, 68, 68); line-height: 24px; font-size: 13px;
+}
+.divPromoteService b {
+	font-size: 14px;
+}
+.fontCheng {
+	color: rgb(255, 102, 0);
+}
+#succeedcase li {
+	float: left;
+}
+
+#user_login {
+	margin: 0px; padding: 0px;
+}
+#user_login dl {
+	margin: 0px; padding: 0px;
+}
+#user_login dd {
+	margin: 0px; padding: 0px;
+}
+#user_login {
+	margin: 0px auto; width: 590px;
+}
+.user_bottom_c a {
+	color: yellow !important; text-decoration: none;
+}
+.user_bottom_c a:hover {
+	color: rgb(204, 0, 0);
+}
+.tbgrid td {
+	border: 1px solid rgb(220, 224, 225); border-image: none;
+}
+.tbgrid th {
+	border: 1px solid rgb(220, 224, 225); border-image: none;
+}
+
+div.bar .precent {
+	overflow: hidden;
+}
+div .bar img {
+	padding: 0px; border: 0px currentColor; border-image: none;
+}
+.div_title_page_question {
+	margin: 22px auto; padding: 2px 0px; width: 98%; line-height: 20px; clear: both;
+}
+.div_title_cut_question {
+	margin: 10px auto; padding: 2px 0px; width: 97%; line-height: 24px;
+}
+   body
+   {
+       color:#444;
+       font-size:14px;
+   }
+   .go {
+width: 47px;
+height:60px;
+position: fixed;
+_position: absolute;
+_top: expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||200)-(parseInt(this.currentStyle.marginBottom,10)||0)));
+left: 50%;margin-left:460px;
+bottom: 45%;
+}
+.go a {
+background: url("../img/go.gif") no-repeat;
+display: block;
+text-indent: 999em;
+width:47px;
+border: 0;
+overflow: hidden;
+outline:0;
+float: left;
+}
+.go .top {
+background-position: 0 0px;
+height:46px;
+}
+.go .bottom {
+background-position: 0 -47px;
+height: 46px;
+}
+.go .top:hover{background-position:-48px -0px}
+.go .bottom:hover{background-position:-48px -47px}
+.hul li{ margin-left:6px;}
+.divCond {
+background:none repeat scroll 0 0 #FAE158;
+font-size:14px;
+margin-bottom:10px;
+margin-left:20px;
+width:570px;
+}
+    #divChoice {
+padding:12px;
+line-height:20px;
+/*background:#b3d7fe;*/
+}
+  #divChoice a {
+border:1px solid #ddd;
+color:#555555;
+display:inline-block;
+margin:5px 10px 0 0;
+padding:4px 6px;
+border-radius:3px;
+text-decoration:none;
+background-color:#FFFFFF;
+}
+ #divChoice a.selected,#divChoice a:hover {
+background-color:#fffddb;
+border:1px solid #f9970a;
+color:#333;
+}
+.tabcontent{
+    background: #f9f9f9; border:1px solid #dddddd; border-top: 0px; padding:10px 0 10px 10px;
+}
+ select {
+       height:30px; line-height:22px;padding: 4px 6px;border: solid 1px #d5d5d5;
+      appearance:none;-moz-appearance:none;-webkit-appearance:none;
+      background: url("../img/arrow.png") no-repeat scroll right center #ffffff;
+      padding-right: 14px; vertical-align: middle;
+      padding-right:3px\0;background:#ffffff\0;
+    }
+ select:focus::-ms-value {background-color: white; color:#000;}
+ div.bar {
+    background: url("../img/vote_cl_bar.png") no-repeat 0px 0px;
+    margin: 3px 0px 0px;
+    padding: 0px 0px 0px 1px;
+    width: 152px;
+    height: 16px;
+    text-align: left;
+    float: left;
+}

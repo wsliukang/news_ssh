@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.i18n.encoding" value="UTF-8" />
+	<constant name="struts.devMode" value="false" />
+	<constant name="struts.multipart.saveDir" value="/tmp" />
+	<!-- 把struts2的action交给spring去管理和注入属性 -->
+	<constant name="com.opensymphony.xwork2.objectFactory" value="spring" />
+	<!-- 默认struts-default。但 当返回的数据是json时，action的package要继承json-default -->
+	<package name="newsssh" extends="json-default">
+		<global-results> <!-- 全局result -->
+			<!-- result的 type属性默认是：dispatcher,通常转向JSP页面 -->
+			<result name="error">/error/nologin.jsp</result>
+			<result name="error500">/error/500.jsp</result>
+		</global-results>
+		<!-- 用户登录登出进后台 -->
+		<action name="userlogin" class="userAct" method="doLogin">
+			<result type="json"><!-- 从根节点开始遍历，所有看到的数据就是json数据 -->
+				<param name="root">jsonResult</param>
+			</result>
+
+		</action>
+		<action name="doLogout" class="userAct" method="doLogout">
+			<result name="logout" type="redirect">/index.jsp</result>
+		</action>
+		<action name="goIndex" class="userAct" method="goIndex">
+			<result name="goadmin">/WEB-INF/web/admin.jsp</result>
+		</action>
+		<!-- 获取菜单 -->
+		<action name="menu" class="menuAct" method="menutree">
+			<result type="json">
+				<param name="root">jsonResult</param>
+			</result>
+		</action>
+		<!-- 增加新闻 -->
+		<action name="goAddNews" class="news" method="goAdd">
+			<result name="goadd">/WEB-INF/web/newsadd.jsp</result>
+		</action>
+		<action name="saveAddNews" class="news" method="saveAdd">
+			<result type="json">
+				<param name="root">jsonResult</param>
+			</result>
+		</action>
+		<!-- 删除新闻 -->
+		<action name="doDelNews" class="news" method="doDel1">
+			<result type="json">
+				<param name="root">jsonResult</param>
+			</result>
+		</action>
+		<!-- 修改新闻 -->
+		<action name="goEditNews" class="news" method="goEdit">
+			<result name="goedit">/WEB-INF/web/newsedit.jsp</result>
+		</action>
+		<action name="saveEditNews" class="news" method="saveEdit">
+			<result type="json">
+				<param name="root">jsonResult</param>
+			</result>
+		</action>
+		<!-- 查询新闻 -->
+		<action name="goListNews" class="news" method="goList">
+			<result name="golist">/WEB-INF/web/newslist.jsp</result>
+		</action>
+		<action name="getCountNews" class="news" method="getCount">
+			<result type="json">
+				<param name="root">jsonResult</param>
+			</result>
+		</action>
+		<action name="getNews" class="news" method="getaNews">
+			<result name="goread">/WEB-INF/web/newsread.jsp</result>
+		</action>
+		<action name="listNews" class="news" method="listNews">
+			<result type="json">
+				<param name="root">jsonResult</param>
+			</result>
+		</action>
+	</package>
+	<package name="error" extends="struts-default">
+		<default-action-ref name="notFound" />
+		<action name="notFound">
+			<result>/error/error.jsp</result>
+		</action>
+	</package>
+</struts>

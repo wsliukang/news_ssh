@@ -1,0 +1,138 @@
+body {
+   background: url("../img/cpbg.png");
+   background-size: 100% 100%;
+   margin:0;
+   padding:0;}
+.content {
+    width:600px;
+    height:350px;
+    margin:50px auto 10px auto;
+}
+.login-form {
+    width:400px;
+    height:177px;
+    margin:70px auto 0;
+    padding-top:73px;
+    position:relative;
+    background-image:-webkit-linear-gradient(top,rgb(255,255,255),rgb(116, 222, 73));
+    box-shadow:0 3px 3px rgba(161, 14, 33,0.8);
+    border-radius: 15px;
+    z-index:10;
+}
+.login-form:before {
+    content:"";
+    position:absolute;
+    top:-50px;
+    left:150px;
+    width:102px;
+    height:102px;
+    padding:2px;
+    border:1px solid rgb(216,216,219);
+    background:#fff url("../img/cplogin.png") no-repeat 2px 2px;
+}
+
+.login-form div {
+    width:216px;
+    height:28px;
+    margin:20px auto;
+    position:relative;
+    line-height:28px;
+    border:none;
+}
+.login-form .user-icon, 
+.login-form .password-icon {
+    display:inline-block;
+    font-family: 'loginform-icon';
+    font-size:15px;
+    text-align:center;
+    line-height:28px;
+    color:rgb(153,153,153);
+    position:absolute;
+    left:1px;
+    top:1px;
+    background-color:rgb(255,255,255);
+    border:none;
+    border-right:1px solid rgb(229,229,232);
+    width:30px;
+    height:28px;
+    transition: all 300ms linear;
+}
+.login-form .username input, .login-form .password input {
+    height:100%;
+    width:calc(100% - 40px);
+    padding-left:40px;
+    border-radius:2px;
+    border:1px solid;
+    border-color:rgb(229,229,232) rgb(220,220,221) rgb(213,213,213) rgb(220,220,221);
+    display:block;
+    transition: all 300ms linear;
+}
+
+.login-form .icon:before, .login-form .icon:after {
+    content:"";
+    position:absolute;
+    top:10px;
+    left:30px;
+    width:0;
+    height:0;
+    border:4px solid transparent;
+    border-left-color:rgb(255,255,255);
+}
+.login-form .icon:before {
+    top:9px;
+    border:5px solid transparent;
+    border-left-color:rgb(229,229,232);
+}
+.login-form .username input:focus, .login-form .password input:focus {
+    border-color:rgb(69,153,228);
+    box-shadow:0 0 2px 1px rgb(200,223,244);
+}
+.login-form .username input:focus + span, .login-form .password input:focus + span {
+    background:-*-linear-gradient(top,rgb(255,255,255),rgb(245,245,245));
+    color:rgb(51,51,51);
+}
+.login-form .username input:focus + span:after, .login-form .password input:focus + span:after {
+    border-left-color:rgb(250,250,250);
+}
+
+.login-form button {
+    color:#fff;
+    font-weight:bold;
+    float:right;
+    width:68px;
+    height:30px;
+    position:relative;
+    background:-*-linear-gradient(top,rgb(74,162,241),rgb(52,119,182)) 1px 0 no-repeat,
+               -*-linear-gradient(top,rgb(52,118,181),rgb(36,90,141)) left top no-repeat;
+    background-size:66px 28px,68px 29px;
+    border:none;
+    border-top:1px solid rgb(52,118,181);
+    border-radius:2px;
+    box-shadow:inset 0 1px 0 rgb(86,174,251);
+    text-shadow:0 1px 1px rgb(51,113,173);
+    transition: all 200ms linear;
+}
+.login-form button:hover {
+    text-shadow:0 0 2px rgb(255,255,255);
+    box-shadow:inset 0 1px 0 rgb(86,174,251),0 0 10px 3px rgba(74,162,241,0.5);
+}
+.login-form button:active {
+    background:-*-linear-gradient(top,rgb(52,119,182),rgb(74,162,241)) 1px 0 no-repeat,
+               -*-linear-gradient(top,rgb(52,118,181),rgb(36,90,141)) left top no-repeat;
+}
+
+@font-face {
+  font-family: 'loginform-icon';
+  src: url("../fonts/loginform-icon.eot");
+  src: url("../fonts/loginform-icon.eot?#iefix") format('embedded-opentype'),
+       url("../fonts/loginform-icon.ttf") format('truetype'),
+       url("../fonts/loginform-icon.svg#loginform-icon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.gears-cont{ right:-10px;bottom:-50px;position:absolute;width:520px;height:330px;overflow:hidden;}
+#gear-1{right:210px;bottom:-150px;-webkit-animation:spin-left 120s linear infinite;-moz-animation:spin-left 120s linear infinite;-o-animation:spin-left 120s linear infinite;animation:spin-left 120s linear infinite}
+#gear-2{right:9px;bottom:25px;-webkit-animation:spin-right 120s linear infinite;-moz-animation:spin-right 120s linear infinite;-o-animation:spin-right 120s linear infinite;animation:spin-right 120s linear infinite}
+#gear-3{bottom:-85px;right:35px;-webkit-animation:spin-left 70s linear infinite;-moz-animation:spin-left 70s linear infinite;-o-animation:spin-left 70s linear infinite;animation:spin-left 70s linear infinite}
+.gear-display{position:absolute;position:fixed;}
+@-webkit-keyframes spin-left{0%{-webkit-transform:rotate(360deg)}100%{-webkit-transform:rotate(0deg)}}@-o-keyframes spin-left{0%{-o-transform:rotate(360deg)}100%{-o-transform:rotate(0deg)}}@-moz-keyframes spin-left{0%{-moz-transform:rotate(360deg)}100%{-moz-transform:rotate(0deg)}}@keyframes spin-left{0%{transform:rotate(360deg)}100%{transform:rotate(0deg)}}@-webkit-keyframes spin-right{0%{-webkit-transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg)}}@-o-keyframes spin-right{0%{-o-transform:rotate(0deg)}100%{-o-transform:rotate(360deg)}}@-moz-keyframes spin-right{0%{-moz-transform:rotate(0deg)}100%{-moz-transform:rotate(360deg)}}@keyframes spin-right{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}

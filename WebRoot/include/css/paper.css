@@ -1,0 +1,44 @@
+﻿@charset "utf-8";
+/*index首页css*/
+/*top*/
+input, img { vertical-align: middle;}
+img {border:none;border-width:0;}
+a { text-decoration: none;}
+a:hover{ text-decoration: none;}
+body{ margin:0px auto; padding:0px; text-align:center; font-size:12px; font-family:"Arial","微软雅黑";}
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+.clearfix { display:inline-block; }
+/* Hide from IE Mac \*/ 
+.clearfix { display:block; }
+/* End hide from IE Mac */
+img {vertical-align:middle;}
+.fcc:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+.fcc { display:inline-block; }
+/* Hide from IE Mac \*/ 
+.fcc { display:block;margin-top:10px; }
+.mainBox {width:100%;margin:0 auto;padding:0;}
+.m-toolbar .m-title {border-bottom: 2px solid #ff8400;
+}
+#ExamArea {height:auto;font-family:"Arial","微软雅黑";font-weight:600;border-bottom: 1px solid #2EB6A8;}
+#ExamArea h3 {display:block;border-bottom:2px solid #2EB6A8;font-family:"Arial","微软雅黑";color:#222;font-size:17px;line-height:22px;text-align:left;padding:3px 15px;font-weight:600;}
+#ExamArea h4 {display:block;border-bottom:2px solid #2EB6A8;font-family:"Arial","微软雅黑";color:#222;font-size:17px;line-height:22px;text-align:left;padding:12px;font-weight:600;}
+#ExamArea div ul {display:block;width:99%;float:left;margin:0 auto;padding:0;text-align:left;}
+#ExamArea div ul li {cursor: pointer;display:block;border-bottom:0px dashed #C6C6C6;padding:7px 9px;font-family:"Arial","微软雅黑";font-size:16px;line-height:22px;padding-left:50px;font-weight:400;}
+#ExamArea div ul li:hover{background-color:#FF9900;}
+#ExamArea div ul li input {width:20px;height:20px;margin-top:-1px;}
+#ExamTipAreaX {display:none;position:absolute;bottom:0;top:auto;right:auto;left:auto;z-index:8000;background:#F9F9F9;background:#00ACFF;background:#FF2266;background:#0D9572;border-top:0px solid #B2B2B2;width:100%;height:36px;filter:alpha(opacity=80);opacity:0.80;font-weight:100;}
+#ExamTipAreaX p {margin-top:7px;color:#222;font-size:14px;color:#FFF;font-weight:100;}
+#ExamTipArea {display:none;position:fixed;bottom:auto;top:170px;right:auto;left:40%;z-index:8000;background: rgba(0, 0, 0, 0.4);width:220px;height:70px;font-weight:100;border-radius:5px;text-align:center;}
+#ExamTipArea p {color:#222;font-size:14px;color:#FFF;font-weight:100;line-height:70px;}
+#ExamArea textarea {width: 800px;height: 220px;font-size:14px;resize:none;word-break:break-all;}
+/* 扩展属性 */
+.textarea {width: 800px;height: 220px;font-size:14px;resize:none;word-break:break-all;}
+.divcd {float: left;margin-left:6px;cursor:pointer;}
+#divcd_o {display: none; background:url(/Content/images/cd_bk.png) -0px -110px no-repeat; width:33px; height: 109px;}
+#divcd_c {background: url(/Content/images/cd_bk.png) -0px -0px no-repeat; width: 33px; height: 109px;}
+.div_bk {float:right;background: url(/Content/images/cd_bk.png) -0px -220px no-repeat; width: 33px; height: 44.2px;cursor:pointer;}
+.div_tm {float:right; font-size: 15px;font-weight:400;margin-right:6px;max-width:190px;}
+#emrtcd {width: 100%;display: none;min-height: 80px;font: 14px/20px arial;text-align: center;position: fixed;color: #fff;background-color: #e7ebe5;}
+#div_rdcd {margin-left: 4px;margin-top: 5px;height: 90px;position: fixed;cursor: pointer;}
+#divcd_open {background:url(/Content/images/cd_bk.png) -0px -110px no-repeat; width:33px; height: 109px;}
+#divcd_close {display: none; background: url(/Content/images/cd_bk.png) -0px -0px no-repeat; width: 33px; height: 109px;}

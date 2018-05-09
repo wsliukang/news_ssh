@@ -1,0 +1,132 @@
+@CHARSET "UTF-8";
+	body{ 
+	font-family:'Helvetica Neue', Helvetica, 'Microsoft Yahei', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;
+	font-size:16px;
+	}
+	.m-toolbar .l-btn-text {font-size:16px;font-weight:bold;}
+	.m-buttongroup{overflow: visible;}
+	.m-buttongroup .l-btn-text {font-size:16px;font-weight:bold;}
+	.l-btn-selected, .l-btn-selected:hover, .l-btn-selected>.panel-header {
+	    color: #fff;
+	    border-color: #1f637b;
+	    background: #2984a4;
+	    background: -webkit-linear-gradient(top,#2984a4 0,#24748f 100%);
+	    background: -moz-linear-gradient(top,#2984a4 0,#24748f 100%);
+	    background: -o-linear-gradient(top,#2984a4 0,#24748f 100%);
+	    background: linear-gradient(to bottom,#2984a4 0,#24748f 100%);
+	    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#2984a4,endColorstr=#24748f,GradientType=0);
+	}
+	.m-item{font-size:16px;line-height: 26px; }
+	.fcc:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+	.fcc { display:inline-block; }
+	.fcc { display:block;margin-top:1px; }
+	.ExamArea {height:auto;font-family:"Arial","微软雅黑";font-weight:600;border-bottom: 1px solid #2EB6A8;}
+	.ExamArea h3 {display:block;border-bottom:2px solid #2EB6A8;font-family:"Arial","微软雅黑";color:#222;font-size:17px;line-height:22px;text-align:left;padding:3px 15px;font-weight:600;}
+	.ExamArea h4 {display:block;border-bottom:2px solid #2EB6A8;font-family:"Arial","微软雅黑";color:#222;font-size:17px;line-height:22px;text-align:left;padding:12px;font-weight:600;}
+	.ExamArea div ul {display:block;width:99%;float:left;margin:0 auto;padding:0;text-align:left;}
+	.ExamArea div ul li {cursor: pointer;display:block;border-bottom:0px dashed #C6C6C6;padding:7px 9px;font-family:"Arial","微软雅黑";font-size:16px;line-height:22px;padding-left:50px;font-weight:400;float:left;}
+	.ExamArea div ul li:hover{background-color:#FF9900;}
+	.ExamArea div ul li input {width:20px;height:20px;vertical-align:-5px;}
+	#ExamTipAreaX {display:none;position:absolute;bottom:0;top:auto;right:auto;left:auto;z-index:8000;background:#F9F9F9;background:#00ACFF;background:#FF2266;background:#0D9572;border-top:0px solid #B2B2B2;width:100%;height:36px;filter:alpha(opacity=80);opacity:0.80;font-weight:100;}
+	#ExamTipAreaX p {margin-top:7px;color:#222;font-size:14px;color:#FFF;font-weight:100;}
+	#ExamTipArea {display:none;position:fixed;bottom:auto;top:170px;right:auto;left:40%;z-index:8000;background: rgba(0, 0, 0, 0.4);width:220px;height:70px;font-weight:100;border-radius:5px;text-align:center;}
+	#ExamTipArea p {color:#222;font-size:14px;color:#FFF;font-weight:100;line-height:70px;}
+	.ExamArea textarea {width: 800px;height: 220px;font-size:14px;resize:none;word-break:break-all;}
+	
+	span.tscore{font-size:12.0pt;font-family:SimSun;color:red;}span.tscore2{font-size:12.0pt;font-family:SimSun;color:blue;}span.tscore3{font-size:60.0pt;font-family:Helvetica;font-style: italic;color:red;}
+	
+	#xmtimer {
+    padding: 2px;
+    right: 3px;
+    position: fixed;
+    z-index: 20;
+    background-color: rgba(255, 245, 245, 0.65);
+    border-radius: 10px 0px 0px 10px;
+    font-weight:bold;
+    border: solid 2px #ff8400;
+    width:105px;
+}
+
+.m-badge:not(.l-btn),
+.l-btn.m-badge::after{
+	display: inline-block;
+	min-width: 10px;
+	line-height: 1;
+	font-size: 12px;
+	text-align: center;
+	white-space: nowrap;
+	border-radius: 10px;
+	padding: 2px 4px;
+	border-style: solid;
+	border-width: 0px;
+	background-color: #d9534f;
+	color: #fff;
+	z-index: 99999;
+}
+.l-btn.m-badge::after,
+.l-btn .m-badge{
+	position: absolute;
+	top: -10px;
+	right: -10px;
+}
+.tabs-inner .m-badge{
+	position: absolute;
+	top: 1px;
+	right: -10px;
+}
+.tabs-inner>.tabs-title>.m-badge{
+	top: 0;
+	right: 0;
+}
+.tabs-header-bottom .tabs-inner>.tabs-title>.m-badge{
+	top: auto;
+	bottom: 0;
+	right: 0;
+}
+.panel-footer .l-btn .l-btn-icon-top .m-badge,
+.panel-footer .l-btn .l-btn-icon-bottom .m-badge{
+	top: 0;
+	right: -10px;
+}
+.l-btn.m-badge::after{
+	content: attr(data-badge);
+}
+
+.tabs-title {font-size: 16px;}
+.l-btn-text{font-size: 14px;}
+.panel-body{font-size: 16px;}
+.l-btn, .l-btn-left {
+    overflow: visible;
+    position: relative;
+}
+
+a {
+    color: #0a50a1;
+    text-decoration: none;
+}
+.brand-list {
+    padding: 3px;
+    position: relative;
+    zoom: 1;
+    overflow-y: auto;
+    height:90px;
+}
+.brand-list a:hover {
+    background-color: #f60;
+    color: #fff;
+    text-decoration: none;
+}
+.brand-list .active {
+    color: #fff;
+    background: #f60;
+    text-decoration: none;
+    font-weight:bold;
+}
+.brand-list a {
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 3px;
+    margin: 6px 12px 6px 0;
+    white-space: nowrap;
+}

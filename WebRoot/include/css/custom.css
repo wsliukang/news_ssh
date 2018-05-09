@@ -1,0 +1,107 @@
+
+/*页面宽度*/
+
+.red{
+  color:red;
+}
+#type-div, #type-div-ipt {
+margin-bottom: 2px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    border-radius: 4px;
+    box-shadow: none;
+    border-color: #ddd;
+}
+ #text-out{
+font-family: "Helvetica Neue",Helvetica,Tahoma,Arial,'Microsoft Yahei','Hiragino Sans GB','WenQuanYi Micro Hei',sans-serif;
+  width: 100%;
+    height: 80px;
+    min-height: 80px;
+    background-color: #FFF;
+    font-size: 25px;
+    border: 0px;
+    padding: 0px;
+  white-space:pre-wrap;/*css-3*/ 
+  white-space:-moz-pre-wrap;/*Mozilla,since1999*/ 
+  white-space:-pre-wrap;/*Opera4-6*/ 
+  white-space:-o-pre-wrap;/*Opera7*/ 
+  word-break:break-all;
+  /*word-wrap:break-word; InternetExplorer5.5+*/　
+  clear:both;
+}
+#text-ipt{
+font-family: "Helvetica Neue",Helvetica,Tahoma,Arial,'Microsoft Yahei','Hiragino Sans GB','WenQuanYi Micro Hei',sans-serif;
+  width: 100%;
+    height: 80px;
+    min-height: 80px;
+    background-color: #DDD;
+    font-size: 25px;
+    border: 0px;
+    padding: 0px;
+  white-space:pre-wrap;/*css-3*/ 
+  white-space:-moz-pre-wrap;/*Mozilla,since1999*/ 
+  white-space:-pre-wrap;/*Opera4-6*/ 
+  white-space:-o-pre-wrap;/*Opera7*/ 
+  word-break:break-all;
+  /*word-wrap:break-word; InternetExplorer5.5+*/　
+  clear:both;
+}
+.txt-err{
+	background-color:red;
+	color:white;
+  float:left;
+}
+.txt-suc{
+	color:green;
+  float:left;
+}
+.txt-ul{
+  /*color:blue;*/
+  float:left;
+  background: url(../img/ul.jpg) repeat-x bottom;
+}
+.txt-n{
+  float:left;
+}
+
+#tab_test{
+  position: relative;  
+  z-index:601;
+}
+#tab_test .pane-sd{
+	margin-top:5px;
+	padding:5px;
+	text-align:left;
+	border: 2px solid #FFDAB5;
+	background: #FFFFDD;
+	color: #33F;
+	font-family: "Helvetica Neue",Helvetica,Tahoma,Arial,'Microsoft Yahei','Hiragino Sans GB','WenQuanYi Micro Hei',sans-serif;
+font-size: 15px;
+}
+.test_txt{
+	color:#CC0000;
+	font-size:15px;
+}
+/* 关灯 */
+.lightmask{
+    position:fixed;background:#000;
+    opacity:.9;filter:alpha(opacity=90);
+    width:100%;height:100%;z-index:600;
+    display:none;
+    top:0;left:0;
+    _position:absolute;
+    _top:expression(eval(document.documentElement.scrollTop))
+}
+.rltdiv{
+  width:180px;
+  padding:5px 3px;
+  font-size:14px;
+  background-color:#DDF4DF;
+  text-align:left;
+}
+.rltdiv span{
+  font-size:24px;
+  color:red;
+}
+

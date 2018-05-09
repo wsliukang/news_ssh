@@ -1,0 +1,362 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	font-family: Microsoft YaHei, Helvitica, Verdana, Tohoma, Arial,
+		san-serif;
+	margin: 0;
+	padding: 20px 50px;
+	text-decoration: none;
+}
+
+body {
+	font: 14px/1.5 "Microsoft YaHei", "Lucida Sans Unicode", "Myriad Pro",
+		"Hiragino Sans GB", "Heiti SC", Verdana, simsun;
+	-webkit-text-size-adjust: none;
+	background: #fff;
+	color: #333;
+	min-width: 320px;
+}
+
+body, div, dl, dt, dd, .mainmenu, ol, li, h1, h2, h3, h4, h5, h6, pre,
+	code, form, fieldset, legend, input, textarea, p, blockquote, th, td,
+	table {
+	margin: 0;
+	padding: 0;
+}
+
+i, em {
+	font-style: normal
+}
+
+a {
+	text-decoration: none;
+	blr: expression(this.onFocus = this.blur ());
+	outline: none
+}
+
+ul, ol, li, dl {
+	list-style-type: none;
+}
+
+.sys_spec_img li {
+	float: left;
+	position: relative;
+	margin: 1%;
+	/*height: 150px;*/
+	width: 155px;
+}
+
+.sys_spec_img li a {
+	border: 2px solid #fff;
+	float: left;
+	background: #fff;
+	display: inline-block;
+	outline: none;
+	position: absolute;
+	width: 156px;
+	bottom: 0px;
+	left: 0px;
+}
+
+.sys_spec_img li a:hover {
+	border: 2px solid #fff;
+	padding: 0;
+	text-decoration: none;
+}
+
+.sys_spec_img li i {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	font-size: 0;
+	line-height: 0;
+	right: -2px;
+	bottom: -1px;
+	background: url(../img/sys_item_selected.gif) no-repeat right bottom;
+	z-index: 99;
+	display: none;
+}
+
+.sys_spec_img li.selected a {
+	border: 2px solid #e4393c;
+	padding: 0; /*position: relative;*/
+	z-index: 0
+}
+
+.sys_spec_img li.selected i {
+	display: block;
+}
+
+.sys_spec_img li span {
+	position: absolute;
+	z-index: 1000;
+	bottom: 2px;
+	left: 1px;
+	display: block;
+	background-color: rgba(57, 70, 228, 0.15);
+	color: #fff;
+	padding: 1% 2%;
+	font-size: 14px;
+	float: left
+}
+/*========================= */
+.progress-container {
+	width: 152px;
+	border: solid 1px #111;
+	background: #7B7575;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
+	cursor: pointer;
+}
+
+.progress-container.done {
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 0 2px #0c8112;
+}
+
+.progress {
+	width: 150px;
+	background: #00ff40;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.35);
+	z-index: 1;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	color: #151515;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+	font-weight: bold;
+	transition: background 250ms ease;
+}
+
+.progress-container, .progress {
+	border-radius: 0px;
+}
+
+.progress-container.done .progress {
+	background: #ff8000;
+}
+
+.progress-container.done .progress-overlay {
+	display: none;
+}
+
+.progress, .progress-overlay {
+	position: absolute;
+}
+
+@keyframes uploadarrow {
+  0% {
+    bottom: 0%;
+    border-bottom-color: rgba(255, 255, 255, 0);
+  }
+
+  50% {
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+  }
+
+  100% {
+    bottom: 100%;
+    border-bottom-color: rgba(255, 255, 255, 0);
+  }
+}
+@-webkit-keyframes uploadarrow {
+  0% {
+    bottom: 0%;
+    border-bottom-color: rgba(255, 255, 255, 0);
+  }
+
+  50% {
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+  }
+
+  100% {
+    bottom: 100%;
+    border-bottom-color: rgba(255, 255, 255, 0);
+  }
+}
+.progress-overlay {
+	z-index: 2;
+	width: 0;
+	height: 100%;
+	bottom: 0;
+	left: 15px;
+	border: solid 20px transparent;
+	border-width: 0 25px 20px 25px;
+	border-bottom-color: rgba(255, 255, 255, 0.25);
+	-webkit-animation: uploadarrow 900ms infinite ease-out;
+	-moz-animation: uploadarrow 900ms infinite linear;
+	-o-animation: uploadarrow 900ms infinite linear;
+	animation: uploadarrow 900ms infinite linear;
+}
+/* ======================================== */
+.block__list_tags {
+    padding-left: 30px;
+}
+.block__list {
+    padding: 5px 0;
+    /* max-width: 360px; */
+    margin-top: -8px;
+    margin-left: 5px;
+    background-color: #fff;
+    margin: 0;
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    height:60px;
+}
+.block__list_tags li {
+    color: #fff;
+    float: left;
+    margin: 5px;
+    padding: 5px 10px;
+    min-width: 10px;
+    background-color: #5F9EDF;
+    text-align: center;
+}
+
+.block__list li {
+    cursor: move;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+/* ======================================== */
+.area {
+	margin: 100px auto;
+	width: 300px;
+	height: 150px;
+}
+
+.item {
+	float: left;
+	clear: both;
+	margin-bottom: 23px;
+}
+/* 设置 border-width 调整箭头的大小 */
+/* 向上的箭头 */
+.dot-top {
+	font-size: 0;
+	line-height: 0;
+	border-width: 10px;
+	border-color: red;
+	border-top-width: 0;
+	border-style: dashed;
+	border-bottom-style: solid;
+	border-left-color: transparent;
+	border-right-color: transparent;
+}
+/* 向右的箭头 */
+.dot-right {
+	font-size: 0;
+	line-height: 0;
+	border-width: 10px;
+	border-color: red;
+	border-right-width: 0;
+	border-style: dashed;
+	border-left-style: solid;
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+}
+/* 向下的箭头 */
+.dot-bottom {
+	font-size: 0;
+	line-height: 0;
+	border-width: 10px;
+	border-color: red;
+	border-bottom-width: 0;
+	border-style: dashed;
+	border-top-style: solid;
+	border-left-color: transparent;
+	border-right-color: transparent;
+}
+/* 向左的箭头 */
+.dot-left {
+	font-size: 0;
+	line-height: 0;
+	border-width: 10px;
+	border-color: red;
+	border-left-width: 0;
+	border-style: dashed;
+	border-right-style: solid;
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+}
+/* 当元素宽、高为零，且其他边为透明颜色时，可以形一个三角形。*/
+/* 改变各个边的宽度，即通过调整“边框”厚度可以配置出任意角度 */
+#demo15 {
+	position: relative;
+}
+
+#demo15:after {
+	border: 10px solid transparent;
+	border-left: 15px solid #f00;
+	width: 0;
+	height: 0;
+	position: absolute;
+	content: ' '
+}
+/* 当元素宽、高和边框的宽相近（等）时，改变某一边的颜色可以看到一个梯形； */
+#demo11 {
+	border: 20px solid #000;
+	border-left-color: #f00;
+	width: 50px;
+	height: 50px;
+}
+/* 通过伪元素绘制出的两个，一个与背景色相同覆盖部分红色箭头，形成三角线 */
+#demo16 {
+	position: relative;
+}
+
+#demo16:after, #demo16:before {
+	border: 10px solid transparent;
+	border-left: 10px solid #fff;
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 0;
+	right: -20px;
+	content: ' '
+}
+
+#demo16:before {
+	border-left-color: #f00;
+	right: -21px;
+}
+/*三角线分割的Tab页*/
+#demo17 {
+	font-size: 17px;
+	height: 24px;
+}
+
+#demo17 li {
+	float: left;
+	position: relative;
+	list-style: none;
+	margin: 0 20px 12px -19px;
+	border-top: solid 1px #ddd;
+	border-bottom: solid 1px #ddd;
+	padding-left: 12px;
+}
+
+#demo17 li:after, #demo17 li:before {
+	border: 10px solid transparent;
+	border-left: 10px solid #fff;
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 0;
+	right: -18px;
+	content: ' '
+}
+
+#demo17 li:before {
+	border-left-color: #ddd;
+	right: -19px;
+}
